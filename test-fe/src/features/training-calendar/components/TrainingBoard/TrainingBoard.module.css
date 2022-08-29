@@ -1,0 +1,13 @@
+.trainingBoard{
+  padding: 8.6rem 3.7rem 0 6.1rem;
+}
+
+.boardColumns{
+  display: flex;
+  overflow: auto;
+}
+
+.boardColumn{
+  display: flex;
+  overflow: auto;
+}

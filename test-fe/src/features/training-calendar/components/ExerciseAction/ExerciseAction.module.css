@@ -1,0 +1,41 @@
+
+.exerciseAction {
+  padding: .5rem .9rem;
+  background: #FFFFFF;
+  border: .1rem solid #DFDFDF;
+  box-shadow: 0 0 .4rem rgba(0, 0, 0, 0.1);
+  border-radius: .3rem;
+}
+
+.exerciseAction + .exerciseAction {
+  margin-top: .4rem;
+}
+
+.exerciseName {
+  width: 100%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  text-align: right;
+  color: #000000;
+}
+
+.exerciseDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.exerciseNumber {
+  padding-right: 1rem;
+  font-weight: 700;
+  color: #919CAD;
+}
+
+.exerciseInfo {
+  font-weight: 400;
+  color: #95A6B7;
+}

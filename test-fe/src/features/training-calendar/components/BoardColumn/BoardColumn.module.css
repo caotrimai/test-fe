@@ -1,0 +1,36 @@
+.boardColumn {
+  flex: 0 0 auto;
+  width: 17.9rem;
+  margin: 0 .5rem;
+}
+
+.today .date {
+  color: #5A57CB;
+  font-weight: 700;
+}
+
+.dayHeader {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.4rem;
+  color: #6A7988;
+}
+
+.dayBody {
+  padding: 1rem;
+  height: calc(100vh - 15rem);
+  background: #F3F5F8;
+  mix-blend-mode: normal;
+  border-radius: 6px;
+  overflow: auto;
+}
+
+.date{
+  margin-bottom: .5rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 15px;
+  color: #728096;
+}

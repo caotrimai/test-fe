@@ -1,0 +1,53 @@
+.exerciseCard {
+  padding: 0.5rem 0.7rem;
+  margin-top: 0.5rem;
+  border-radius: 0.6rem;
+  background: rgba(255, 255, 255, 0.8);
+  border: .1rem solid rgba(34, 36, 38, 0.15);
+  cursor: grab;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+}
+
+.headerTitle {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+  color: #5A57CB;
+}
+
+.headerMenu {
+  padding-left: 1rem;
+  font-size: 1.6rem;
+  position: relative;
+  top: -.5rem;
+  color: #95A6B7;
+  cursor: pointer;
+}
+
+.body {
+  margin-top: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.addExercise {
+  margin-top: .5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addExercise > img {
+  cursor: pointer;
+}
